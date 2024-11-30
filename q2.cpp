@@ -23,6 +23,7 @@ int main() {
 	return 0;
 }
 
+// Function definition
 void loveLove(string& userString) {
 	// Local variable declaration
 	int letterCount = 0;
