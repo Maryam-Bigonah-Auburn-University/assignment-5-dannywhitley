@@ -52,6 +52,8 @@ string fixSentence(string userString) {
 		// Triggers if punctuation is detected
 		if (ispunct(userString[i])) {
 			newString += userString[i];
+			isWord = false;
+			isSpace = false;
 		}
 		// Triggers if a space is detected and the previous element was not a space
 		if (isspace(userString[i]) && !isSpace) {
